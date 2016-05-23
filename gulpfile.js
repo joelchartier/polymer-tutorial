@@ -272,7 +272,7 @@ gulp.task('default', ['clean'], function(cb) {
     ['ensureFiles', 'copy', 'styles'],
     'elements',
     ['images', 'fonts', 'html'],
-    'vulcanize', // 'cache-config',
+    'vulcanize', 'cache-config',
     cb);
 });
 
